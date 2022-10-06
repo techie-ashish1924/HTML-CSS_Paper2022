@@ -39,6 +39,18 @@ a{
     justify-content: space-around;
 }
 
+.Book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Btn_Trial:hover{
+    /* color:blue; */
+    border: 1px solid crimson;
+    border-radius: 2px;
+}
+
 .btn_Trial:hover{
 
     background-color:aqua;
@@ -83,9 +95,15 @@ img{
 }
 .Nature:hover{
     height: 300px;
-    content: url("./Images/camera_icon.png");
+    /* content-visibility; */
+    /* content: url("./Images/camera_icon.png"); */
+    /* background-image: url("./Images/camera_icon.png"); */
+    /* background-size: 5px; */
     background-image: url("./Images/camera_icon.png");
     background-repeat: no-repeat;
+    /* transform: scale(1.1); */
+    /* transform: translate(-50%,-50%); */
+    opacity: 0.5;
     /* border: 1px solid black; */
 }
 
@@ -99,6 +117,7 @@ img{
     
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     column-gap: -10px;
     
@@ -110,7 +129,10 @@ img{
 
 .Contact{
     display: flex;
+    /* flex-direction: space-between; */
+    justify-content: space-between;
     background-color: black;
+    padding-right: 40px;
 }
 
 .pht{
